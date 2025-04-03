@@ -5,6 +5,16 @@
     "emit-module-diagnostics" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/TimeCalculator-master-emit-module.dia",
     "swift-dependencies" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/TimeCalculator-master.swiftdeps"
   },
+  "/Users/ftechiz/Downloads/Office-Time-Calculator/Time Claculator/AuthView.swift" : {
+    "const-values" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/AuthView.swiftconstvalues",
+    "dependencies" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/AuthView.d",
+    "diagnostics" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/AuthView.dia",
+    "index-unit-output-path" : "/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/AuthView.o",
+    "llvm-bc" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/AuthView.bc",
+    "object" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/AuthView.o",
+    "swift-dependencies" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/AuthView.swiftdeps",
+    "swiftmodule" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/AuthView~partial.swiftmodule"
+  },
   "/Users/ftechiz/Downloads/Office-Time-Calculator/Time Claculator/ContentView.swift" : {
     "const-values" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/ContentView.swiftconstvalues",
     "dependencies" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/ContentView.d",
@@ -44,6 +54,16 @@
     "object" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/ProfileView.o",
     "swift-dependencies" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/ProfileView.swiftdeps",
     "swiftmodule" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/ProfileView~partial.swiftmodule"
+  },
+  "/Users/ftechiz/Downloads/Office-Time-Calculator/Time Claculator/SplashView.swift" : {
+    "const-values" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/SplashView.swiftconstvalues",
+    "dependencies" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/SplashView.d",
+    "diagnostics" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/SplashView.dia",
+    "index-unit-output-path" : "/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/SplashView.o",
+    "llvm-bc" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/SplashView.bc",
+    "object" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/SplashView.o",
+    "swift-dependencies" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/SplashView.swiftdeps",
+    "swiftmodule" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/SplashView~partial.swiftmodule"
   },
   "/Users/ftechiz/Downloads/Office-Time-Calculator/Time Claculator/Time_ClaculatorApp.swift" : {
     "const-values" : "/Users/ftechiz/Downloads/Office-Time-Calculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculator.build/Objects-normal/arm64/Time_ClaculatorApp.swiftconstvalues",

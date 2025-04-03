@@ -10,13 +10,18 @@ import SwiftUI
 @main
 struct Time_ClaculatorApp: App {
     @AppStorage("isLoggedIn") private var isLoggedIn: Bool = false
+    @State private var showSplash = true
 
     var body: some Scene {
         WindowGroup {
-            if isLoggedIn {
-                ContentView()  // Show Main App
+            if showSplash {
+                SplashView()  // Show Splash Screen first
             } else {
-                AuthView()  // Show Login/Signup
+                if isLoggedIn {
+                    ContentView()  // Show Main App
+                } else {
+                    AuthView()  // Show Login/Signup
+                }
             }
         }
     }
