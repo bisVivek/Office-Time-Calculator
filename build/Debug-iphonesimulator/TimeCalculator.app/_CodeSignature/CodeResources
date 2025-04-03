@@ -4,9 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		SgB3rkQSMw+ZIVc7+XAX/qMvmc4=
+		</data>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<data>
+		epMw30ETDlxKqAocZppxmUF7RJk=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		dEGx4sVsqJG2K2jgIdxp6szkGCI=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		KBuil+JkNABMkUU6GOi+h+vlE5o=
+		Llmtx246uxV4O6xpoQg5MmvkjPQ=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -23,6 +35,27 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UeF8KfeXgAAVBLfDsf/GzbJLMNPRtfScLrE3o+TnYwc=
+			</data>
+		</dict>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4bjokwf6moiDa0SZWYK34K5vQwvD5NNuNWXfw0qqJnk=
+			</data>
+		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rN5FL2NkJz/MIcjmeDBfBVN79x5/iCZvLagRKHn1zQM=
+			</data>
+		</dict>
 		<key>TimeCalculator.debug.dylib</key>
 		<dict>
 			<key>hash2</key>
