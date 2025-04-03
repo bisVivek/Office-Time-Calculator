@@ -7,7 +7,7 @@
         "key": "Profile",
         "location": {
           "startingColumn": 18,
-          "startingLine": 17
+          "startingLine": 18
         }
       },
       {
@@ -15,7 +15,7 @@
         "key": "Name: %@",
         "location": {
           "startingColumn": 22,
-          "startingLine": 23
+          "startingLine": 24
         }
       },
       {
@@ -23,7 +23,15 @@
         "key": "Email: %@",
         "location": {
           "startingColumn": 22,
-          "startingLine": 27
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "Dark Mode",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 40
         }
       },
       {
@@ -31,7 +39,7 @@
         "key": "Logout",
         "location": {
           "startingColumn": 22,
-          "startingLine": 41
+          "startingLine": 52
         }
       }
     ]

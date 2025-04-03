@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ProfileView: View {
     @AppStorage("isLoggedIn") private var isLoggedIn: Bool = true
+    @AppStorage("isDarkMode") private var isDarkMode: Bool = false
     @State private var userName: String = ""
     @State private var userEmail: String = ""
 
@@ -34,6 +35,16 @@ struct ProfileView: View {
             .cornerRadius(10)
             .padding(.horizontal)
 
+            // Theme Toggle
+            Toggle(isOn: $isDarkMode) {
+                Text("Dark Mode")
+                    .font(.headline)
+            }
+            .padding()
+            .onChange(of: isDarkMode) { _ in
+                updateTheme()
+            }
+
             Spacer()
 
             // Logout Button
@@ -48,12 +59,13 @@ struct ProfileView: View {
             }
             .padding()
         }
+        .preferredColorScheme(isDarkMode ? .dark : .light) // Apply Theme
         .onAppear {
             loadUserData()
         }
     }
 
-    // Load user data from UserDefaults
+    // Load user data
     func loadUserData() {
         userName = UserDefaults.standard.string(forKey: "userName") ?? "Unknown"
         userEmail = UserDefaults.standard.string(forKey: "userEmail") ?? "No Email"
@@ -65,6 +77,11 @@ struct ProfileView: View {
         UserDefaults.standard.removeObject(forKey: "userName")
         UserDefaults.standard.removeObject(forKey: "userEmail")
         UserDefaults.standard.removeObject(forKey: "userPassword")
+    }
+
+    // Update Theme
+    func updateTheme() {
+        UserDefaults.standard.set(isDarkMode, forKey: "isDarkMode")
     }
 }
 
