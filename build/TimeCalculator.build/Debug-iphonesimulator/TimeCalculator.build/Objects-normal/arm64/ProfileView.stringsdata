@@ -7,7 +7,23 @@
         "key": "Profile",
         "location": {
           "startingColumn": 18,
-          "startingLine": 15
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
+        "key": "Name: %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "Email: %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 27
         }
       },
       {
@@ -15,7 +31,7 @@
         "key": "Logout",
         "location": {
           "startingColumn": 22,
-          "startingLine": 20
+          "startingLine": 41
         }
       }
     ]

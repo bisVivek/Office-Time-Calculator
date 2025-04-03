@@ -7,7 +7,7 @@
         "key": "Sign Up",
         "location": {
           "startingColumn": 29,
-          "startingLine": 18
+          "startingLine": 22
         }
       },
       {
@@ -15,7 +15,15 @@
         "key": "Login",
         "location": {
           "startingColumn": 41,
-          "startingLine": 18
+          "startingLine": 22
+        }
+      },
+      {
+        "comment": "",
+        "key": "Full Name",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 27
         }
       },
       {
@@ -23,15 +31,23 @@
         "key": "Email",
         "location": {
           "startingColumn": 23,
-          "startingLine": 22
+          "startingLine": 33
         }
       },
       {
         "comment": "",
         "key": "Password",
         "location": {
-          "startingColumn": 25,
-          "startingLine": 27
+          "startingColumn": 31,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "Password",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 47
         }
       },
       {
@@ -39,7 +55,7 @@
         "key": "Sign Up",
         "location": {
           "startingColumn": 33,
-          "startingLine": 34
+          "startingLine": 69
         }
       },
       {
@@ -47,7 +63,7 @@
         "key": "Login",
         "location": {
           "startingColumn": 45,
-          "startingLine": 34
+          "startingLine": 69
         }
       },
       {
@@ -55,7 +71,7 @@
         "key": "Already have an account? Login",
         "location": {
           "startingColumn": 33,
-          "startingLine": 45
+          "startingLine": 80
         }
       },
       {
@@ -63,7 +79,23 @@
         "key": "Don't have an account? Sign Up",
         "location": {
           "startingColumn": 68,
-          "startingLine": 45
+          "startingLine": 80
+        }
+      },
+      {
+        "comment": "",
+        "key": "🧐",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 98,
+          "startingLine": 86
         }
       }
     ]
