@@ -8,16 +8,43 @@
 import SwiftUI
 
 struct DashboardView: View {
+    @State private var storedData: [String: String] = [:] // Month -> Total Time
+    
     var body: some View {
-        VStack {
-            Text("Dashboard")
-                .font(.largeTitle)
-                .padding()
-            
-            Text("Analytics and reports will be shown here!")
-                .padding()
-            
-            Spacer()
+        NavigationView {
+            VStack {
+                Text("Dashboard Analytics")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .foregroundColor(.blue)
+                    .padding(.top)
+                
+                List(storedData.keys.sorted(), id: \.self) { month in
+                    HStack {
+                        Text(month)
+                            .fontWeight(.medium)
+                        Spacer()
+                        Text(storedData[month] ?? "00:00:00")
+                            .font(.headline)
+                            .foregroundColor(.green)
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+            }
+            .padding()
+            .onAppear {
+                loadStoredData()
+            }
+            .navigationTitle("Dashboard")
+        }
+    }
+
+    // MARK: - Load Stored Data
+    func loadStoredData() {
+        if let savedData = UserDefaults.standard.dictionary(forKey: "monthlyTotals") as? [String: String] {
+            storedData = savedData
         }
     }
 }

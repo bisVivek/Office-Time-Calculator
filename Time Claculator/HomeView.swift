@@ -113,7 +113,13 @@ struct HomeView: View {
         let minutes = (totalSeconds % 3600) / 60
         let seconds = totalSeconds % 60
         totalHours = String(format: "%02d:%02d:%02d", hours, minutes, seconds)
+
+        // Store data in UserDefaults for Dashboard
+        var storedData = UserDefaults.standard.dictionary(forKey: "monthlyTotals") as? [String: String] ?? [:]
+        storedData[selectedMonth] = totalHours
+        UserDefaults.standard.set(storedData, forKey: "monthlyTotals")
     }
+
 
     func saveHours() {
         UserDefaults.standard.set(dailyHours, forKey: "hours_\(selectedMonth)")
