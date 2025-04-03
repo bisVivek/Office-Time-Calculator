@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		50EF19D62D9F180900005E9E /* Time Claculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Claculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		50EF19E62D9F180A00005E9E /* Time ClaculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time ClaculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		50EF19F02D9F180A00005E9E /* Time ClaculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time ClaculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EF19D62D9F180900005E9E /* TimeCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EF19E62D9F180A00005E9E /* TimeCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EF19F02D9F180A00005E9E /* TimeCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		50EF19D72D9F180900005E9E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50EF19D62D9F180900005E9E /* Time Claculator.app */,
-				50EF19E62D9F180A00005E9E /* Time ClaculatorTests.xctest */,
-				50EF19F02D9F180A00005E9E /* Time ClaculatorUITests.xctest */,
+				50EF19D62D9F180900005E9E /* TimeCalculator.app */,
+				50EF19E62D9F180A00005E9E /* TimeCalculatorTests.xctest */,
+				50EF19F02D9F180A00005E9E /* TimeCalculatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		50EF19D52D9F180900005E9E /* Time Claculator */ = {
+		50EF19D52D9F180900005E9E /* TimeCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50EF19FA2D9F180A00005E9E /* Build configuration list for PBXNativeTarget "Time Claculator" */;
+			buildConfigurationList = 50EF19FA2D9F180A00005E9E /* Build configuration list for PBXNativeTarget "TimeCalculator" */;
 			buildPhases = (
 				50EF19D22D9F180900005E9E /* Sources */,
 				50EF19D32D9F180900005E9E /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				50EF19D82D9F180900005E9E /* Time Claculator */,
 			);
-			name = "Time Claculator";
+			name = TimeCalculator;
 			packageProductDependencies = (
 			);
 			productName = "Time Claculator";
-			productReference = 50EF19D62D9F180900005E9E /* Time Claculator.app */;
+			productReference = 50EF19D62D9F180900005E9E /* TimeCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		50EF19E52D9F180A00005E9E /* Time ClaculatorTests */ = {
+		50EF19E52D9F180A00005E9E /* TimeCalculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50EF19FD2D9F180A00005E9E /* Build configuration list for PBXNativeTarget "Time ClaculatorTests" */;
+			buildConfigurationList = 50EF19FD2D9F180A00005E9E /* Build configuration list for PBXNativeTarget "TimeCalculatorTests" */;
 			buildPhases = (
 				50EF19E22D9F180A00005E9E /* Sources */,
 				50EF19E32D9F180A00005E9E /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				50EF19E92D9F180A00005E9E /* Time ClaculatorTests */,
 			);
-			name = "Time ClaculatorTests";
+			name = TimeCalculatorTests;
 			packageProductDependencies = (
 			);
 			productName = "Time ClaculatorTests";
-			productReference = 50EF19E62D9F180A00005E9E /* Time ClaculatorTests.xctest */;
+			productReference = 50EF19E62D9F180A00005E9E /* TimeCalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		50EF19EF2D9F180A00005E9E /* Time ClaculatorUITests */ = {
+		50EF19EF2D9F180A00005E9E /* TimeCalculatorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50EF1A002D9F180A00005E9E /* Build configuration list for PBXNativeTarget "Time ClaculatorUITests" */;
+			buildConfigurationList = 50EF1A002D9F180A00005E9E /* Build configuration list for PBXNativeTarget "TimeCalculatorUITests" */;
 			buildPhases = (
 				50EF19EC2D9F180A00005E9E /* Sources */,
 				50EF19ED2D9F180A00005E9E /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				50EF19F32D9F180A00005E9E /* Time ClaculatorUITests */,
 			);
-			name = "Time ClaculatorUITests";
+			name = TimeCalculatorUITests;
 			packageProductDependencies = (
 			);
 			productName = "Time ClaculatorUITests";
-			productReference = 50EF19F02D9F180A00005E9E /* Time ClaculatorUITests.xctest */;
+			productReference = 50EF19F02D9F180A00005E9E /* TimeCalculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 50EF19D12D9F180900005E9E /* Build configuration list for PBXProject "Time Claculator" */;
+			buildConfigurationList = 50EF19D12D9F180900005E9E /* Build configuration list for PBXProject "TimeCalculator" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				50EF19D52D9F180900005E9E /* Time Claculator */,
-				50EF19E52D9F180A00005E9E /* Time ClaculatorTests */,
-				50EF19EF2D9F180A00005E9E /* Time ClaculatorUITests */,
+				50EF19D52D9F180900005E9E /* TimeCalculator */,
+				50EF19E52D9F180A00005E9E /* TimeCalculatorTests */,
+				50EF19EF2D9F180A00005E9E /* TimeCalculatorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		50EF19E82D9F180A00005E9E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 50EF19D52D9F180900005E9E /* Time Claculator */;
+			target = 50EF19D52D9F180900005E9E /* TimeCalculator */;
 			targetProxy = 50EF19E72D9F180A00005E9E /* PBXContainerItemProxy */;
 		};
 		50EF19F22D9F180A00005E9E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 50EF19D52D9F180900005E9E /* Time Claculator */;
+			target = 50EF19D52D9F180900005E9E /* TimeCalculator */;
 			targetProxy = 50EF19F12D9F180A00005E9E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -458,7 +458,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Time Claculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Time Claculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeCalculator";
 			};
 			name = Debug;
 		};
@@ -476,7 +476,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Time Claculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Time Claculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeCalculator";
 			};
 			name = Release;
 		};
@@ -515,7 +515,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		50EF19D12D9F180900005E9E /* Build configuration list for PBXProject "Time Claculator" */ = {
+		50EF19D12D9F180900005E9E /* Build configuration list for PBXProject "TimeCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50EF19F82D9F180A00005E9E /* Debug */,
@@ -524,7 +524,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50EF19FA2D9F180A00005E9E /* Build configuration list for PBXNativeTarget "Time Claculator" */ = {
+		50EF19FA2D9F180A00005E9E /* Build configuration list for PBXNativeTarget "TimeCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50EF19FB2D9F180A00005E9E /* Debug */,
@@ -533,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50EF19FD2D9F180A00005E9E /* Build configuration list for PBXNativeTarget "Time ClaculatorTests" */ = {
+		50EF19FD2D9F180A00005E9E /* Build configuration list for PBXNativeTarget "TimeCalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50EF19FE2D9F180A00005E9E /* Debug */,
@@ -542,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50EF1A002D9F180A00005E9E /* Build configuration list for PBXNativeTarget "Time ClaculatorUITests" */ = {
+		50EF1A002D9F180A00005E9E /* Build configuration list for PBXNativeTarget "TimeCalculatorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50EF1A012D9F180A00005E9E /* Debug */,

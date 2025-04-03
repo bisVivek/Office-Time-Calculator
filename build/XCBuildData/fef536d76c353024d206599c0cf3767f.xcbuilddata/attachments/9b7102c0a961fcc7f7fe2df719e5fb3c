@@ -1,0 +1,28 @@
+{
+  "" : {
+    "diagnostics" : "/Users/ftechiz/Desktop/App Project/Time Claculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculatorUITests.build/Objects-normal/arm64/TimeCalculatorUITests-master.dia",
+    "emit-module-dependencies" : "/Users/ftechiz/Desktop/App Project/Time Claculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculatorUITests.build/Objects-normal/arm64/TimeCalculatorUITests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/ftechiz/Desktop/App Project/Time Claculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculatorUITests.build/Objects-normal/arm64/TimeCalculatorUITests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/ftechiz/Desktop/App Project/Time Claculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculatorUITests.build/Objects-normal/arm64/TimeCalculatorUITests-master.swiftdeps"
+  },
+  "/Users/ftechiz/Desktop/App Project/Time Claculator/Time ClaculatorUITests/Time_ClaculatorUITests.swift" : {
+    "const-values" : "/Users/ftechiz/Desktop/App Project/Time Claculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculatorUITests.build/Objects-normal/arm64/Time_ClaculatorUITests.swiftconstvalues",
+    "dependencies" : "/Users/ftechiz/Desktop/App Project/Time Claculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculatorUITests.build/Objects-normal/arm64/Time_ClaculatorUITests.d",
+    "diagnostics" : "/Users/ftechiz/Desktop/App Project/Time Claculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculatorUITests.build/Objects-normal/arm64/Time_ClaculatorUITests.dia",
+    "index-unit-output-path" : "/TimeCalculator.build/Debug-iphonesimulator/TimeCalculatorUITests.build/Objects-normal/arm64/Time_ClaculatorUITests.o",
+    "llvm-bc" : "/Users/ftechiz/Desktop/App Project/Time Claculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculatorUITests.build/Objects-normal/arm64/Time_ClaculatorUITests.bc",
+    "object" : "/Users/ftechiz/Desktop/App Project/Time Claculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculatorUITests.build/Objects-normal/arm64/Time_ClaculatorUITests.o",
+    "swift-dependencies" : "/Users/ftechiz/Desktop/App Project/Time Claculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculatorUITests.build/Objects-normal/arm64/Time_ClaculatorUITests.swiftdeps",
+    "swiftmodule" : "/Users/ftechiz/Desktop/App Project/Time Claculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculatorUITests.build/Objects-normal/arm64/Time_ClaculatorUITests~partial.swiftmodule"
+  },
+  "/Users/ftechiz/Desktop/App Project/Time Claculator/Time ClaculatorUITests/Time_ClaculatorUITestsLaunchTests.swift" : {
+    "const-values" : "/Users/ftechiz/Desktop/App Project/Time Claculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculatorUITests.build/Objects-normal/arm64/Time_ClaculatorUITestsLaunchTests.swiftconstvalues",
+    "dependencies" : "/Users/ftechiz/Desktop/App Project/Time Claculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculatorUITests.build/Objects-normal/arm64/Time_ClaculatorUITestsLaunchTests.d",
+    "diagnostics" : "/Users/ftechiz/Desktop/App Project/Time Claculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculatorUITests.build/Objects-normal/arm64/Time_ClaculatorUITestsLaunchTests.dia",
+    "index-unit-output-path" : "/TimeCalculator.build/Debug-iphonesimulator/TimeCalculatorUITests.build/Objects-normal/arm64/Time_ClaculatorUITestsLaunchTests.o",
+    "llvm-bc" : "/Users/ftechiz/Desktop/App Project/Time Claculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculatorUITests.build/Objects-normal/arm64/Time_ClaculatorUITestsLaunchTests.bc",
+    "object" : "/Users/ftechiz/Desktop/App Project/Time Claculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculatorUITests.build/Objects-normal/arm64/Time_ClaculatorUITestsLaunchTests.o",
+    "swift-dependencies" : "/Users/ftechiz/Desktop/App Project/Time Claculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculatorUITests.build/Objects-normal/arm64/Time_ClaculatorUITestsLaunchTests.swiftdeps",
+    "swiftmodule" : "/Users/ftechiz/Desktop/App Project/Time Claculator/build/TimeCalculator.build/Debug-iphonesimulator/TimeCalculatorUITests.build/Objects-normal/arm64/Time_ClaculatorUITestsLaunchTests~partial.swiftmodule"
+  }
+}
