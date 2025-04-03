@@ -1,0 +1,24 @@
+{
+  "source": "/Users/ftechiz/Desktop/App Project/Time Claculator/Time Claculator/DashboardView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Dashboard",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 13
+        }
+      },
+      {
+        "comment": "",
+        "key": "Analytics and reports will be shown here!",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 17
+        }
+      }
+    ]
+  },
+  "version": 1
+}

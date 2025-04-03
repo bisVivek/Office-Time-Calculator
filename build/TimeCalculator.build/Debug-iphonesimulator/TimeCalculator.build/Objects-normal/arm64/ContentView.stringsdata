@@ -4,58 +4,26 @@
     "Localizable": [
       {
         "comment": "",
-        "key": "Time Calculator",
+        "key": "Home",
         "location": {
-          "startingColumn": 30,
-          "startingLine": 59
+          "startingColumn": 27,
+          "startingLine": 8
         }
       },
       {
         "comment": "",
-        "key": "Time Calculator",
+        "key": "Dashboard",
         "location": {
-          "startingColumn": 22,
-          "startingLine": 14
+          "startingColumn": 27,
+          "startingLine": 13
         }
       },
       {
         "comment": "",
-        "key": "Total Hours: %@",
+        "key": "Profile",
         "location": {
-          "startingColumn": 22,
-          "startingLine": 53
-        }
-      },
-      {
-        "comment": "",
-        "key": "Select Month",
-        "location": {
-          "startingColumn": 24,
-          "startingLine": 19
-        }
-      },
-      {
-        "comment": "",
-        "key": "Day %lld:",
-        "location": {
-          "startingColumn": 30,
-          "startingLine": 33
-        }
-      },
-      {
-        "comment": "",
-        "key": "hh:mm:ss",
-        "location": {
-          "startingColumn": 35,
-          "startingLine": 34
-        }
-      },
-      {
-        "comment": "",
-        "key": "Calculate Total Hours",
-        "location": {
-          "startingColumn": 26,
-          "startingLine": 45
+          "startingColumn": 27,
+          "startingLine": 18
         }
       }
     ]

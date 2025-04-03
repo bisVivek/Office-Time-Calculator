@@ -1,0 +1,24 @@
+{
+  "source": "/Users/ftechiz/Desktop/App Project/Time Claculator/Time Claculator/ProfileView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Profile",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 13
+        }
+      },
+      {
+        "comment": "",
+        "key": "User profile settings will go here!",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 17
+        }
+      }
+    ]
+  },
+  "version": 1
+}

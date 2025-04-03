@@ -1,6 +1,0 @@
-Target dependency graph (3 targets)
-Target 'TimeCalculatorUITests' in project 'TimeCalculator'
-➜ Explicit dependency on target 'TimeCalculator' in project 'TimeCalculator'
-Target 'TimeCalculatorTests' in project 'TimeCalculator'
-➜ Explicit dependency on target 'TimeCalculator' in project 'TimeCalculator'
-Target 'TimeCalculator' in project 'TimeCalculator' (no dependencies)
