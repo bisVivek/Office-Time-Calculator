@@ -1,5 +1,5 @@
 {
-  "source": "/Users/ftechiz/Desktop/App Project/Time Claculator/Time Claculator/ProfileView.swift",
+  "source": "/Users/ftechiz/Downloads/Office-Time-Calculator/Time Claculator/ProfileView.swift",
   "tables": {
     "Localizable": [
       {
@@ -7,15 +7,15 @@
         "key": "Profile",
         "location": {
           "startingColumn": 18,
-          "startingLine": 13
+          "startingLine": 15
         }
       },
       {
         "comment": "",
-        "key": "User profile settings will go here!",
+        "key": "Logout",
         "location": {
-          "startingColumn": 18,
-          "startingLine": 17
+          "startingColumn": 22,
+          "startingLine": 20
         }
       }
     ]

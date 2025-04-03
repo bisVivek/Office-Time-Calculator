@@ -1,0 +1,72 @@
+{
+  "source": "/Users/ftechiz/Downloads/Office-Time-Calculator/Time Claculator/AuthView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Sign Up",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "Login",
+        "location": {
+          "startingColumn": 41,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "Email",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 22
+        }
+      },
+      {
+        "comment": "",
+        "key": "Password",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sign Up",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "Login",
+        "location": {
+          "startingColumn": 45,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "Already have an account? Login",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 45
+        }
+      },
+      {
+        "comment": "",
+        "key": "Don't have an account? Sign Up",
+        "location": {
+          "startingColumn": 68,
+          "startingLine": 45
+        }
+      }
+    ]
+  },
+  "version": 1
+}

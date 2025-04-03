@@ -8,17 +8,31 @@
 import SwiftUI
 
 struct ProfileView: View {
+    @AppStorage("isLoggedIn") private var isLoggedIn: Bool = true
+
     var body: some View {
         VStack {
             Text("Profile")
                 .font(.largeTitle)
                 .padding()
-            
-            Text("User profile settings will go here!")
-                .padding()
-            
+
+            Button(action: logout) {
+                Text("Logout")
+                    .font(.headline)
+                    .frame(maxWidth: .infinity)
+                    .padding()
+                    .background(Color.red)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+            }
+            .padding(.horizontal)
+
             Spacer()
         }
+    }
+
+    func logout() {
+        isLoggedIn = false  // Redirect to AuthView
     }
 }
 

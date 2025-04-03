@@ -8,10 +8,16 @@
 import SwiftUI
 
 @main
-struct Time_ClaculatorApp: App {
+struct Time_CalculatorApp: App {
+    @AppStorage("isLoggedIn") private var isLoggedIn: Bool = false  // Track login state
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if isLoggedIn {
+                ContentView()  // Show main app if logged in
+            } else {
+                AuthView()  // Show login/signup if not logged in
+            }
         }
     }
 }
