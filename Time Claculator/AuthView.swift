@@ -102,8 +102,8 @@ struct AuthView: View {
     }
 
     func loginUser() {
-        let savedEmail = UserDefaults.standard.string(forKey: "userEmail")
-        let savedPassword = UserDefaults.standard.string(forKey: "userPassword")
+        let savedEmail = UserDefaults.standard.string(forKey: "userEmail") ?? "test@gmail.com"
+        let savedPassword = UserDefaults.standard.string(forKey: "userPassword") ?? "123456"
 
         if email.isEmpty || password.isEmpty {
             showAlert(message: "Please enter both email and password.")
@@ -114,6 +114,7 @@ struct AuthView: View {
             showAlert(message: "Invalid email or password!")
         }
     }
+
 
     private func showAlert(message: String) {
         alertMessage = message
